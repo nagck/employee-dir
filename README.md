@@ -80,7 +80,7 @@ https://nagck.github.io/employee-dir/
 * https://randomuser.me/
 
 ## License
-Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.<br>
+Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.<br><br>
 ![badge](https://img.shields.io/badge/license-mit-brightgreen)<br />
 ## Feedback
 Feedback is always appreciated. If you are interested in fixing any issues and contributing directly to the code base, please provide at:
