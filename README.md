@@ -1,8 +1,40 @@
-# Getting Started with Create React App
+# Employee Directory (React Assignment)
+## Description
+This Employee Directory application was created with React. The application allows a user to view entire employee directory at once so that the user has quick access to their information. An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. The user is also able to filter employees by name or sort in alphabetical order.
+
+- Link to the live application on GitHub pages: https://nagck.github.io/employee-dir/
+- Link to the GitHub repository: https://github.com/nagck/employee-dir
+
+The application's UI has been split into components, manage component state, and respond to user events.
+
+## User Story
+* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+
+An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+
+Given a table of random users generated from the [Random User API](https://randomuser.me/), when the user loads the page, a table of employees will be rendered. 
+
+The user is able to:
+
+  * Sort the table by different category
+
+  * Filter the users by different property
+
+## Technologies Used: 
+* React Libray
+* Node.js, Express
+* JavaScript, HTML, CSS/Bootstrap
+* npm
+* Axios API
+* Random User Generator API
+
+## Installation/Usage
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Please follow GitHub's guidelines to clone the repository and/or download the zip file. 
+
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -11,13 +43,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The page will reload if you make edits.
 
 ### `npm run build`
 
@@ -27,44 +53,38 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots of the application:
 
-### `npm run eject`
+![image](assets/employee-dir-01.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Link to functional application deployed on GitHub Pages:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+https://nagck.github.io/employee-dir/
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Credits
 
-## Learn More
+- The application has been developed using React, JavaScript, Node.js, Express, Bootstrap. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Sincere thanks to my course instructors Ed (Edward Apostol), Herman (German Arcila) and Anas (Anas Qazi) for teaching and helping me in acquiring HTML/CSS/JavaScript/Node.js/MongoDB/Mongoose/React  skills. And of course thanks to my fellow students for sharing valuable tips and tricks on Slack study groups.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Here are some websites that I referred to develop the code:
+* https://reactjs.org/
+* https://github.com/facebook/create-react-app
+* https://www.npmjs.com/package/axios
+* https://www.npmjs.com/
+* https://www.npmjs.com/package/express
+* https://www.w3schools.com/nodejs/
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript
+* https://www.w3schools.com/js/default.asp
+* https://randomuser.me/
 
-### Code Splitting
+## License
+Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.<br>
+![badge](https://img.shields.io/badge/license-mit-brightgreen)<br />
+## Feedback
+Feedback is always appreciated. If you are interested in fixing any issues and contributing directly to the code base, please provide at:
+- GitHub Pull Requests: [https://github.com/nagck/employee-dir/pulls](https://github.com/nagck/employee-dir/pulls)
+- GitHub: [https://github.com/nagck](https://github.com/nagck)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
